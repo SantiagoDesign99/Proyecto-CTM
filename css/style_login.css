@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* =============== Base ==============*/
+:root {
+	--Naranja: #fc7323;
+	--Naranja-hover: #e16117;
+	--Verde: #238276;
+	--Verde-hover: #1e7065;
+	--verde-complementario: #8ac13c;
+	--verde-complementario-hover: #84bb36;
+	--Blanco: #ffff;
+	--Negro: #000;
+	--Gris: rgb(128, 128, 128);
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+/* =================================*/
+
+/* =============== Estilos btns index ==============*/
+
+.btn-administrador {
+	background-color: var(--verde-complementario);
+	color: var(--Negro);
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+}
+
+.btn-administrador:hover {
+	background-color: var(--verde-complementario-hover);
+	color: var(--Negro);
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+	box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+		0 0 8px rgba(105, 105, 105, 0.6);
+}
+
+.btn-instructor {
+	background-color: var(--Verde);
+	color: var(--Blanco);
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+}
+
+.btn-instructor:hover {
+	background-color: var(--Verde);
+	color: var(--Blanco);
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+	box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+		0 0 8px rgba(105, 105, 105, 0.6);
+}
+
+.btn-aprendiz {
+	background-color: var(--Naranja);
+	color: var(--Blanco);
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+}
+
+.btn-aprendiz:hover {
+	background-color: var(--Naranja-hover);
+	color: var(--Blanco);
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+	box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+		0 0 8px rgba(105, 105, 105, 0.6);
+}
+
+/* =============== Estilos login ==============*/
+.login {
+	height: 100vh;
+}
+/* =============== Img  ==============*/
+.bg-image {
+	background-image: url(/img/Img-1.jpg);
+	background-size: cover;
+	/* background-position: center; */
+}
+.bg-image-2 {
+	background-image: url(/img/Img-2.jpg);
+	background-size: cover;
+}
+
+.bg-image-3 {
+	background-image: url(/img/Img-3.jpg);
+	background-size: cover;
+}
+.login-heading {
+	font-weight: bold;
+}
+
+/* =============== Estilos campos form ==============*/
+
+.form-control:hover {
+	border-color: var(--Gris);
+}
+
+/* =============== Estilos checked login ==============*/
+
+.form-check-input:checked {
+	background-color: var(--Naranja);
+	border-color: var(--Naranja);
+}
+
+/* =============== Estilos btns login ==============*/
+.btn-login {
+	background-color: var(--Naranja);
+	color: var(--Blanco);
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+}
+
+.btn-login:hover {
+	background-color: var(--Naranja-hover);
+	color: var(--Blanco);
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+	box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+		0 0 8px rgba(105, 105, 105, 0.6);
+}
+input:focus,
+select:focus,
+select,
+input.form-control:focus {
+	outline: none !important;
+	outline-width: 0 !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* =============== Estilos olvido contraseña y volver atrás ==============*/
+.small {
+	color: var(--Negro);
+}
+
+.forgot:hover {
+	color: var(--Negro);
+	font-weight: bold;
+}
+
+.behind:hover {
+	color: var(--Negro);
+	font-weight: bold;
+}
+/* =================================*/
